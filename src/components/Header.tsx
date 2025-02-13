@@ -7,15 +7,15 @@ const Header: React.FC = () => {
 		<header className="bg-white text-gray-600 p-4">
 		<nav className="container mx-auto flex justify-between">
 			<div className="text-xl font-mono">My portfolio</div>
-			<ul className="flex space-x-4">
+			<ul className="flex space-x-6">
 				<li>
 					<Link href="/">Home</Link>
 				</li>
 				<li>
-					<Link href="/">About</Link>
+					<Link href="/About">About</Link>
 				</li>
 				<li>
-					<Link href="/">study</Link>
+					<Link href="/Study">Study</Link>
 				</li>
 			</ul>
 		</nav>
