@@ -1,11 +1,9 @@
 import React from "react"
 
-
 import { FaFigma, FaHtml5, FaJava, FaReact } from "react-icons/fa"
 import { RiNextjsFill } from "react-icons/ri"
 import { SiAdobeillustrator, SiAdobephotoshop, SiJavascript, SiPostgresql, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si"
 import { VscVscode } from "react-icons/vsc"
-
 
 const Study: React.FC = () => {
   return(
