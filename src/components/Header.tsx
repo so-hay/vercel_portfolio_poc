@@ -12,10 +12,10 @@ const Header: React.FC = () => {
 					<Link href="/">Home</Link>
 				</li>
 				<li>
-					<Link href="/About">About</Link>
+					<Link href="#/About">Profile</Link>
 				</li>
 				<li>
-					<Link href="/Study">Study</Link>
+					<Link href="#/Study">Study</Link>
 				</li>
 			</ul>
 		</nav>
