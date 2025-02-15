@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import React from "react"
 import Link from "next/link"
 
@@ -7,15 +7,15 @@ const Header: React.FC = () => {
 		<header className="bg-white text-gray-600 p-4">
 		<nav className="container mx-auto flex justify-between">
 			<div className="text-xl font-mono">My portfolio</div>
-			<ul className="flex space-x-6">
+			<ul className="items-center flex space-x-6">
 				<li>
 					<Link href="/">Home</Link>
 				</li>
 				<li>
-					<Link href="#Profile">Profile</Link>
+					<Link href="#profile">Profile</Link>
 				</li>
 				<li>
-					<Link href="#skillset">Profile</Link>
+					<Link href="#skillset">Study</Link>
 				</li>
 			</ul>
 		</nav>

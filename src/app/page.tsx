@@ -9,7 +9,9 @@ import Study from "@/components/Study";
 
 export default function Home() {
   return (
-    <div className="bg-[url('/haikei.png')]">
+    //背景のサイズはURLより先に記載する
+    <div className="min-h-screen bg-[url('/haikei.png')] bg-cover bg-center bg-fixed">
+    {/* <div > */}
       <Header/>
       <Hero/>
       <Profile/>
