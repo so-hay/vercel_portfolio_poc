@@ -43,10 +43,10 @@ const products = [
   },
   {
     id: 6,
-    name: '感電ポスター',
+    name: '水滴',
     href: '#',
-    tours: 'illustrator,カッティングプロッター',
-    imageSrc: '/kanden.png',
+    tours: 'Photoshop',
+    imageSrc: '/sky.png',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
@@ -91,9 +91,9 @@ const products = [
   },
   {
     id: 12,
-    name: 'Earthen Bottle',
+    name: '感電ポスター',
     href: '#',
-    tours: 'illustrator',
+    tours: 'illustrator,カッティングプロッター',
     imageSrc: '/haikei.png',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
