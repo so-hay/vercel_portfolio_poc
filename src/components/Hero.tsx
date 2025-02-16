@@ -83,10 +83,10 @@ const products = [
   },
   {
     id: 11,
-    name: 'Earthen Bottle',
+    name: '3D壁紙',
     href: '#',
     tours: 'illustrator',
-    imageSrc: '/haikei.png',
+    imageSrc: '/smile.png',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
   {
