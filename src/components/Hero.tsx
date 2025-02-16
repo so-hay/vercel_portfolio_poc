@@ -22,15 +22,15 @@ const products = [
     name: 'Focus Paper Refill',
     href: '#',
     price: '3',
-    imageSrc: '/haikei.png',
+    imageSrc: '/Valentine.png',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
   {
     id: 4,
-    name: 'Machined Mechanical Pencil',
+    name: '感電ポスター',
     href: '#',
     price: '4',
-    imageSrc: '/haikei.png',
+    imageSrc: '/kanden.png',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   // More products...
