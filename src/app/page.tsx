@@ -6,7 +6,6 @@ import Profile from "./Profile/page";
 import Study from "@/components/Study";
 
 
-
 export default function Home() {
   return (
     //背景のサイズはURLより先に記載する

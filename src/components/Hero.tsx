@@ -4,7 +4,7 @@ const products = [
   {
     id: 1,
     name: 'Earthen Bottle',
-    href: '#',
+    href: '/item1',
     tours: 'illustrator',
     imageSrc: '/haikei.png',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
