@@ -1,13 +1,18 @@
+"use client"; // Next.js の useState を有効にする
+
+import { useState } from "react";
 import Image from "next/image"
+import Link from "next/link";
 
 const products = [
   {
     id: 1,
-    name: 'Earthen Bottle',
-    href: '/item1',
+    name: 'グラデーション',
+    href: '/item/img1',
     tours: 'illustrator',
     imageSrc: '/haikei.png',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    description: "グラデーションを使ったデザイン",
   },
   {
     id: 2,
@@ -16,6 +21,7 @@ const products = [
     tours: 'illustrator',
     imageSrc: '/1.png',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+    description: "桜の美しさを表現した作品。",
   },
   {
     id: 3,
@@ -94,54 +100,111 @@ const products = [
     name: '感電ポスター',
     href: '#',
     tours: 'illustrator,カッティングプロッター',
-    imageSrc: '/haikei.png',
+    imageSrc: '/kanden.png',
+    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+  },
+  {
+    id: 13,
+    name: 'IceCream',
+    href: '/item/img1',
+    tours: 'illustrator',
+    imageSrc: '/ice.png',
+    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+  },
+  {
+    id: 14,
+    name: '3D壁紙',
+    href: '#',
+    tours: 'illustrator',
+    imageSrc: '/smile.png',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
   // More products...
 ]
 
+// const Hero: React.FC = () => {
+//   return(
+// 		<section>
+//       <div>
+// 			<h1 className="text-5xl text-center text-gray-600 font-medium mx-auto mt-10">作品</h1>
+// 			<div>
+// 			<div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+// 				<h2 className="sr-only">Products</h2>
+
+// 				<div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+// 					{products.map((product) => (
+// 						<Link key={product.id} href={product.href} className="group">
+// 							<Image
+// 								alt={product.imageAlt}
+// 								src={product.imageSrc}
+// 								width={500}
+// 								height={500}
+// 								className="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8"
+// 							/>
+// 							<h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
+// 							<p className="mt-1 text-lg font-medium text-gray-900">{product.tours}</p>
+// 						</Link>
+// 					))}
+// 				</div>
+// 				</div>
+// 			</div>
+	
+// 			</div>
+// 		</section>
+//   )
+// }
+// export default Hero
 
 
 const Hero: React.FC = () => {
-  return(
-		<section>
+  return (
+    <section>
       <div>
-			<h1 className="text-5xl text-center text-gray-600 font-medium mx-auto mt-10">作品</h1>
+        <h1 className="text-5xl text-center text-gray-600 font-medium mx-auto mt-10">作品</h1>
+        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+          <h2 className="sr-only">Products</h2>
 
-			<div>
-{/* 		
-			<main className="items-center bg-white text-gray-600 p-4">
-				<Image className="content-center"
-				src="/2-03.png"
-				alt="3"
-				width={500}
-				height={500}
-				/>
+          <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            {products.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-			</main> */}
-			<div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-				<h2 className="sr-only">Products</h2>
+const ProductCard: React.FC<{ product: (typeof products)[0] }> = ({ product }) => {
+  const [isHovered, setIsHovered] = useState(false);
 
-				<div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-					{products.map((product) => (
-						<a key={product.id} href={product.href} className="group">
-							<Image
-								alt={product.imageAlt}
-								src={product.imageSrc}
-								width={500}
-								height={500}
-								className="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8"
-							/>
-							<h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
-							<p className="mt-1 text-lg font-medium text-gray-900">{product.tours}</p>
-						</a>
-					))}
-				</div>
-				</div>
-			</div>
-	
-			</div>
-		</section>
-  )
-}
-export default Hero
+  return (
+    <a
+      href={product.href}
+      className="group relative block"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <div className="relative w-full aspect-square rounded-lg overflow-hidden">
+        {isHovered ? (
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 text-white text-lg p-4">
+            {product.description}
+          </div>
+        ) : (
+          <Image
+            alt={product.imageAlt}
+            src={product.imageSrc}
+            width={500}
+            height={500}
+            className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-75"
+          />
+        )}
+      </div>
+
+      <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
+      <p className="mt-1 text-lg font-medium text-gray-900">{product.tours}</p>
+    </a>
+  );
+};
+
+export default Hero;
