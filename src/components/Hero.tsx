@@ -57,7 +57,7 @@ const products = [
     tours: 'Photoshop',
     imageSrc: '/sky.png',
     imageAlt: '水滴デザイン',
-    description: "初夏の代表的な花と花言葉。",
+    description: "水滴のような文字",
   },
   {
     id: 7,
@@ -70,12 +70,12 @@ const products = [
   },
   {
     id: 8,
-    name: '水連',
-    href: '/item/August',//鈴蘭と色味が被るので他の変更
+    name: 'アヒル',
+    href: '/item/ahiru',
     tours: 'illustrator',
-    imageSrc: '/suiren.png',
-    imageAlt: '水連',
-    description: "夏の代表的な花と花言葉。",
+    imageSrc: '/ahiru.png',
+    imageAlt: 'アヒル',
+    description: "夏をイメージしたグラデーションとアヒル",
   },
   {
     id: 9,
@@ -84,7 +84,7 @@ const products = [
     tours: 'illustrator',
     imageSrc: '/whiteday2.png',
     imageAlt: 'whiteday',
-    description: "初夏の代表的な花と花言葉。",
+    description: "ホワイトデーPOP",
   },
   {
     id: 10,
@@ -92,8 +92,8 @@ const products = [
     href: '#',
     tours: 'illustrator',
     imageSrc: '/hamburger.png',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
-    description: "初夏の代表的な花と花言葉。",
+    imageAlt: 'ハンバーガー',
+    description: "3Dデザイン",
   },
   {
     id: 11,
@@ -101,17 +101,17 @@ const products = [
     href: '/item/Dog',
     tours: 'illustrator,Photoshop',
     imageSrc: '/sunny.png',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    imageAlt: '雑誌の表紙',
     description: "雑誌の表紙イメージ",
   },
   {
     id: 12,
     name: '感電ポスター',
-    href: '#',
+    href: '/item/kanden',
     tours: 'illustrator,カッティングプロッター',
     imageSrc: '/kanden.png',
     imageAlt: '感電ポスター',
-    description: "初夏の代表的な花と花言葉。",
+    description: "感電警告ポスター",
   },
   {
     id: 13,
@@ -119,7 +119,7 @@ const products = [
     href: '/item/ice',
     tours: 'illustrator',
     imageSrc: '/ice.png',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    imageAlt: 'ice',
     description: "アイスクリーム屋さんのPOP",
   },
   {
@@ -128,8 +128,17 @@ const products = [
     href: '#',
     tours: 'illustrator',
     imageSrc: '/smile.png',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    imageAlt: '3Dデザイン',
     description: "アイスクリーム屋さんのPOP",
+  },
+  {
+    id: 15,
+    name: '舞台看板',
+    href: '/item/kanban',
+    tours: 'illustrator,3Dモデル,カッティングプロッター',
+    imageSrc: '/kanban.png',
+    imageAlt: '舞台看板デザイン',
+    description: "舞台看板",
   },
   // More products...
 ]
