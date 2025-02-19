@@ -1,7 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
-
 export default function sky() {
   return (
     <div className="p-10 text-center">
