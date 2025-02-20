@@ -41,12 +41,12 @@ const products = [
   },
   {
     id: 5,
-    name: '鈴蘭',
-    href: '/item/May',
+    name: 'Garden',
+    href: '/item/Garden',
     tours: 'illustrator',
-    imageSrc: '/suzuran.png',
-    imageAlt: '鈴蘭',
-    description: "初夏の代表的な花と花言葉。",
+    imageSrc: '/Garden1.png',
+    imageAlt: 'Garden',
+    description: "レシピ本の表紙",
   },
   {
     id: 6,
