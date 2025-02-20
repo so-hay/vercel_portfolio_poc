@@ -12,6 +12,8 @@ export default function chocolate() {
         <Image 
           src="/chocolatepackage.png" 
           alt="お菓子のパッケージ" 
+          width={500}
+          height={500}
           className="w-1/2 h-auto rounded-lg bg-gray-200" 
         />
         {/* 説明文部分 */}

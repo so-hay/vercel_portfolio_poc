@@ -12,6 +12,8 @@ export default function April() {
         <Image
           src="/nemophila.png" 
           alt="四月の花と花言葉" 
+          width={500}
+          height={500}
           className="w-1/2 h-auto rounded-lg bg-gray-200" 
         />
         {/* 説明文部分 */}

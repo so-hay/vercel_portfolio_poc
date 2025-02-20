@@ -12,6 +12,8 @@ export default function il_sakura() {
         <Image 
           src="/1.png" 
           alt="イラスト風の桜" 
+          width={500}
+          height={500}
           className="w-1/2 h-auto rounded-lg bg-gray-200" 
         />
         {/* 説明文部分 */}

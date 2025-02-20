@@ -12,6 +12,8 @@ export default function Dog() {
         <Image 
           src="/sunny.png" 
           alt="犬雑誌の表紙イメージ" 
+          width={500}
+          height={500}
           className="w-1/2 h-auto rounded-lg bg-gray-200" 
         />
         {/* 説明文部分 */}

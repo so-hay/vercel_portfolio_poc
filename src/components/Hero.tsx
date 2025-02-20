@@ -1,8 +1,6 @@
 "use client"; // Next.js の useState を有効にする
-
 import { useState } from "react";
 import Image from "next/image"
-import Link from "next/link";
 
 const products = [
   {

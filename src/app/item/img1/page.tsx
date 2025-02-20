@@ -11,7 +11,9 @@ export default function Img1Page() {
         {/* 画像部分 */}
         <Image
           src="/haikei.png" 
-          alt="Earthen Bottle" 
+          alt="Earthen Bottle"
+          width={500}
+          height={500} 
           className="w-1/2 h-auto rounded-lg bg-gray-200" 
         />
         {/* 説明文部分 */}

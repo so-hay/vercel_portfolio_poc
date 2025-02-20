@@ -11,7 +11,9 @@ export default function march() {
         {/* 画像部分 */}
         <Image 
           src="/sakura.png" 
-          alt="三月の花と花言葉" 
+          alt="三月の花と花言葉"
+          width={500}
+          height={500}
           className="w-1/2 h-auto rounded-lg bg-gray-200" 
         />
         {/* 説明文部分 */}

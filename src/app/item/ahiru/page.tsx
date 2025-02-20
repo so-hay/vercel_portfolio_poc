@@ -12,6 +12,8 @@ export default function ahiru() {
         <Image 
           src="/ahiru.png" 
           alt="夏をイメージしたグラデーションとアヒル" 
+          width={500}
+          height={500}
           className="w-1/2 h-auto rounded-lg bg-gray-200" 
         />
         {/* 説明文部分 */}
