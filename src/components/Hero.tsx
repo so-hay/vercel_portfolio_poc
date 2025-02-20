@@ -77,8 +77,8 @@ const products = [
   },
   {
     id: 9,
-    name: 'whiteday2',
-    href: '#',
+    name: 'whitedayPOP',
+    href: '/item/whiteday',
     tours: 'illustrator',
     imageSrc: '/whiteday2.png',
     imageAlt: 'whiteday',
