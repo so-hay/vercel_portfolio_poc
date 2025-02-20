@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-
+import Image from "next/image";
 
 export default function kanden() {
   return (
@@ -9,7 +9,7 @@ export default function kanden() {
       <h1 className="text-4xl mt-4 text-gray-600 font-bold">感電ポスター</h1>
       <div className="flex items-center mt-4 space-x-6">
         {/* 画像部分 */}
-        <img 
+        <Image
           src="/kanden.png" 
           alt="ice_POP" 
           className="w-1/2 h-auto rounded-lg bg-gray-200" 

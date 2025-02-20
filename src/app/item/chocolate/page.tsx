@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-
+import Image from "next/image";
 
 export default function chocolate() {
   return (
@@ -9,7 +9,7 @@ export default function chocolate() {
       <h1 className="text-4xl mt-4 text-gray-600 font-bold">水連</h1>
       <div className="flex items-center mt-4 space-x-6">
         {/* 画像部分 */}
-        <img 
+        <Image 
           src="/chocolatepackage.png" 
           alt="お菓子のパッケージ" 
           className="w-1/2 h-auto rounded-lg bg-gray-200" 

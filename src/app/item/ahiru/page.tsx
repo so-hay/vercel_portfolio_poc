@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Image from "next/image";
 
 export default function ahiru() {
   return (
@@ -8,7 +9,7 @@ export default function ahiru() {
       <h1 className="text-4xl mt-4 text-gray-600 font-bold">アヒル</h1>
       <div className="flex items-center mt-4 space-x-6">
         {/* 画像部分 */}
-        <img 
+        <Image 
           src="/ahiru.png" 
           alt="夏をイメージしたグラデーションとアヒル" 
           className="w-1/2 h-auto rounded-lg bg-gray-200" 
