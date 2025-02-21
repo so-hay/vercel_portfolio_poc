@@ -11,14 +11,15 @@ export default function whiteday() {
         {/* 画像部分 */}
         <Image 
           src="/whiteday2.png" 
-          alt="夏をイメージしたグラデーションとアヒル" 
+          alt="ホワイトデー" 
           width={500}
           height={500}
           className="w-1/2 h-auto rounded-lg bg-gray-200" 
         />
         {/* 説明文部分 */}
         <p className="text-lg text-gray-600">
-          ケーキとホイップに立体感を出したデザイン
+          ケーキとホイップに立体感を出したポストカード風デザイン
+         <br/>【illustrator】
         </p>
       </div>
     <Footer/>

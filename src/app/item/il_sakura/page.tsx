@@ -6,7 +6,7 @@ export default function il_sakura() {
   return (
     <div className="p-10 text-center">
       <Header/>
-      <h1 className="text-4xl mt-4 text-gray-600 font-bold">桜花水面</h1>
+      <h1 className="text-4xl mt-4 text-gray-600 font-bold">桜</h1>
       <div className="flex items-center mt-4 space-x-6">
         {/* 画像部分 */}
         <Image 
@@ -18,7 +18,8 @@ export default function il_sakura() {
         />
         {/* 説明文部分 */}
         <p className="text-lg text-gray-600">
-          自然な風合いの陶器のボトル。
+          水面に映る桜と静かに花弁が水面に落ちていく桜の美しさをイラスト風で表現したデザイン
+          <br/>【illustrator】
         </p>
       </div>
     <Footer/>

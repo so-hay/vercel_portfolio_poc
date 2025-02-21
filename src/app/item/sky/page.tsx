@@ -19,6 +19,7 @@ export default function sky() {
         {/* 説明文部分 */}
         <p className="text-lg text-gray-600">
           雨が降って空に水滴で文字ができるイメージ
+          <br/>【Photoshop】
         </p>
       </div>
     <Footer/>

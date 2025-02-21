@@ -18,8 +18,8 @@ export default function April() {
         />
         {/* 説明文部分 */}
         <p className="text-lg text-gray-600">
-          4月の代表的な花の一つであるネモフィラ。
-          花言葉は「どこでも成功する」。
+          季節の花の写真を使ったデザイン。
+          <br/>【illustrator】
         </p>
       </div>
     <Footer/>

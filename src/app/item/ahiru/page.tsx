@@ -19,6 +19,7 @@ export default function ahiru() {
         {/* 説明文部分 */}
         <p className="text-lg text-gray-600">
           グラデーションとイラスト風のアヒルで夏をイメージしたデザイン
+          <br/>【illustrator、Photoshop】
         </p>
       </div>
     <Footer/>

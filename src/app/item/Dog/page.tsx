@@ -19,6 +19,7 @@ export default function Dog() {
         {/* 説明文部分 */}
         <p className="text-lg text-gray-600">
           雑誌の表紙イメージ。
+          <br/>【illustrator、Photosho】
         </p>
       </div>
     <Footer/>

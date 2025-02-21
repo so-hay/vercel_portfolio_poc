@@ -19,6 +19,7 @@ export default function Garden() {
         {/* 説明文部分 */}
         <p className="text-lg text-gray-600">
           レシピ本の表紙デザイン
+          <br/>【illustrator、Photosho】
         </p>
       </div>
     <Footer/>

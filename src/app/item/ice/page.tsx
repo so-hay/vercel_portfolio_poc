@@ -18,8 +18,8 @@ export default function ice() {
         />
         {/* 説明文部分 */}
         <p className="text-lg text-gray-600">
-          見かけたらつい寄ってしまいたくなるようなアイスクリーム屋さんのPOPをイメージして作成しました。
-          
+          見かけたらつい寄ってしまいたくなるようなポップな色合いのアイスクリーム屋さんのPOPをイメージ
+          <br/>【illustrator、Photosho】
         </p>
       </div>
     <Footer/>
