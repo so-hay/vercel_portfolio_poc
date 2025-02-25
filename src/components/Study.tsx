@@ -1,6 +1,6 @@
 import React from "react"
 
-import { FaFigma, FaHtml5, FaJava, FaReact } from "react-icons/fa"
+import { FaHtml5, FaJava, FaReact } from "react-icons/fa"
 import { RiNextjsFill } from "react-icons/ri"
 import { SiAdobeillustrator, SiAdobephotoshop, SiJavascript, SiPostgresql, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si"
 import { VscVscode } from "react-icons/vsc"
@@ -80,13 +80,13 @@ const Study: React.FC = () => {
           <h3 className="text-gray-600 text-2xl font-mono mt-2">Vscode</h3>
           <p className="font-mono text-gray-600 mt-2">軽量で拡張機能が豊富なコードエディタ</p>
         </div>
-        <div className="bg-white shadow-md p-4 text-center">
+        {/* <div className="bg-white shadow-md p-4 text-center">
           <div className="mx-auto text-4xl text-cyan-600">
             <FaFigma />
           </div>
           <h3 className="text-gray-600 text-2xl font-mono mt-2">Figma</h3>
           <p className="font-mono text-gray-600 mt-2">Webベースのデザインツール</p>
-        </div>
+        </div> */}
         <div className="bg-white shadow-md p-4 text-center">
           <div className="mx-auto text-4xl text-cyan-600">
             <SiAdobeillustrator />
