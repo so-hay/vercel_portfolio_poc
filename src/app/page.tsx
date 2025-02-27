@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import Profile from "../components/Profile";
 import Study from "@/components/Study";
+import RotatingNav from "@/components/RotatingNav";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <div className="min-h-screen bg-[url('/haikei.png')] bg-cover bg-center bg-fixed">
     {/* <div > */}
       <Header/>
+      <RotatingNav/>
       <Hero/>
       <Profile/>
       <Study/>
