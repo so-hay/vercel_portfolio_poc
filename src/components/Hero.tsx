@@ -4,15 +4,15 @@ import Image from "next/image"
 
 
 const products = [
-  // {
-  //   id: 1,
-  //   name: 'グラデーション',
-  //   href: '/01',
-  //   tours: 'illustrator',
-  //   imageSrc: '/haikei.png',
-  //   imageAlt: 'グラデーション',
-  //   description: "回るアニメーション",
-  // },
+  {
+    id: 1,
+    name: 'rainy',
+    href: '/item/rain',
+    tours: 'illustrator',
+    imageSrc: '/rain.png',
+    imageAlt: 'グラデーション',
+    description: "3Dの雲",
+  },
   {
     id: 2,
     name: '桜',
