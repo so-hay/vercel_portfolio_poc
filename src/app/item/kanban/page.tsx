@@ -20,7 +20,7 @@ export default function kanban() {
         <p className="text-lg text-gray-600">
           高校のイベントの際に作成した舞台看板。<br/>
           実物は校章デザインをカッティングプロッターを使って切り抜き、illustratorと3Dモデルで舞台看板の設計デザインを作成。
-        【illustrator、Photosho、カッティングプロッター、3Dモデル】
+        <br/>【illustrator、Photosho、カッティングプロッター、3Dモデル】
         </p>
       </div>
     <Footer/>
