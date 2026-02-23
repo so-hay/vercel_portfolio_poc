@@ -2,9 +2,9 @@ import React from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
-import Profile from "../components/Profile";
+//import Profile from "../components/Profile";
 import Study from "@/components/Study";
-import MailForm from "@/components/MailForm"
+//import MailForm from "@/components/MailForm"
 // import RotatingNav from "@/components/RotatingNav";
 
 export default function Home() {
@@ -15,9 +15,9 @@ export default function Home() {
       <Header/>
       {/* <RotatingNav/> */}
       <Hero/>
-      <Profile/>
+      {/* <Profile/> */}
       <Study/>
-      <MailForm/>
+      {/* <MailForm/> */}
       <Footer/>
     </div>
   );

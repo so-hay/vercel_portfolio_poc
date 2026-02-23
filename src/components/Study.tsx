@@ -2,7 +2,7 @@ import React from "react"
 
 import { FaHtml5, FaJava, FaReact } from "react-icons/fa"
 import { RiNextjsFill } from "react-icons/ri"
-import { SiAdobeillustrator, SiAdobephotoshop, SiJavascript, SiPostgresql, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si"
+import { SiAdobeillustrator, SiBlender , SiJavascript, SiPostgresql, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si"
 import { VscVscode } from "react-icons/vsc"
 
 const Study: React.FC = () => {
@@ -96,10 +96,10 @@ const Study: React.FC = () => {
         </div>
         <div className="bg-white shadow-md p-4 text-center">
           <div className="mx-auto text-4xl text-cyan-600">
-            <SiAdobephotoshop />
+            <SiBlender />
           </div>
-          <h3 className="text-gray-600 text-2xl font-mono mt-2">Adobe photoshop</h3>
-          <p className="font-mono text-gray-600 mt-2">ピクセルベースの画像編集ツール。写真や画像の修正・合成・加工が可能</p>
+          <h3 className="text-gray-600 text-2xl font-mono mt-2">Blender</h3>
+          <p className="font-mono text-gray-600 mt-2">3DCG制作ツール</p>
         </div>       
         
       </div>
