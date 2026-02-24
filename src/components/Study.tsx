@@ -71,7 +71,7 @@ const Study: React.FC = () => {
             <RiNextjsFill />
           </div>
           <h3 className="text-gray-600 text-2xl font-mono mt-2">Next.js</h3>
-          <p className="font-mono text-gray-600 mt-2">Reactの拡張フレームワーク<br>サーバーサイドレンダリングを使用したウェブサイトの開発</p>
+          <p className="font-mono text-gray-600 mt-2">Reactの拡張フレームワーク<br/>サーバーサイドレンダリングを使用したウェブサイトの開発</p>
         </div>
         <div className="bg-white shadow-md p-4 text-center">
           <div className="mx-auto text-4xl text-cyan-600">
