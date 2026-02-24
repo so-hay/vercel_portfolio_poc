@@ -1,6 +1,6 @@
 import React from "react"
 
-import { FaHtml5, FaJava, FaReact } from "react-icons/fa"
+import { FaHtml5, FaReact } from "react-icons/fa"
 import { RiNextjsFill } from "react-icons/ri"
 import { SiAdobeillustrator, SiBlender , SiJavascript, SiPostgresql, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si"
 import { VscVscode } from "react-icons/vsc"
@@ -31,13 +31,13 @@ const Study: React.FC = () => {
           <h3 className="text-gray-600 text-2xl font-mono mt-2">Typescript</h3>
           <p className="font-mono text-gray-600 mt-2">型を使ってコードの安全性と保守性を向上させるJavaScriptの拡張言語</p>
         </div>
-        <div className="bg-white shadow-md p-4 text-center">
+        {/* <div className="bg-white shadow-md p-4 text-center">
           <div className="mx-auto text-4xl text-cyan-600">
             <FaJava />
           </div>
           <h3 className="text-gray-600 text-2xl font-mono mt-2">Java</h3>
           <p className="font-mono text-gray-600 mt-2">プラットフォームに依存せず動作し、オブジェクト指向での開発</p>
-        </div>
+        </div> */}
         <div className="bg-white shadow-md p-4 text-center">
           <div className="mx-auto text-4xl text-cyan-600">
             <SiJavascript />

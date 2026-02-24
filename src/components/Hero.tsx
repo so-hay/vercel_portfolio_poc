@@ -49,15 +49,15 @@ const products = [
     imageAlt: 'Garden',
     description: "レシピ本の表紙",
   },
-  {
-    id: 6,
-    name: '水滴',
-    href: '/item/sky',
-    tours: 'Photoshop',
-    imageSrc: '/sky.png',
-    imageAlt: '水滴デザイン',
-    description: "水滴のような文字",
-  },
+  // {
+  //   id: 6,
+  //   name: '水滴',
+  //   href: '/item/sky',
+  //   tours: 'Photoshop',
+  //   imageSrc: '/sky.png',
+  //   imageAlt: '水滴デザイン',
+  //   description: "水滴のような文字",
+  // },
   {
     id: 7,
     name: 'チョコレートパッケージ',
@@ -148,7 +148,7 @@ const Hero: React.FC = () => {
   return (
     <section>
       <div>
-        <h1 className="text-5xl text-center text-gray-600 font-medium mx-auto mt-10">作品</h1>
+        <h1 className="text-3xl text-center text-gray-600 font-medium mx-auto mt-10">illustrator/Photoshop</h1>
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="sr-only">Products</h2>
 
